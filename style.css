@@ -1,0 +1,21 @@
+body {
+  width: 100%;
+  height: 100vh;
+  background-image: url("img/ballon.jpeg");
+  background-size: auto;
+  background-position: center;
+}
+@media screen and (min-width: 769px) {
+  body {
+    background-image: url("img/ballon.jpeg");
+    background-size: cover;
+  }
+}
+
+@media screen and (max-width: 769px) {
+    body {
+      background-image: url("img/ballon.jpeg");
+      background-size: cover;
+      background-position: right;
+    }
+  }
